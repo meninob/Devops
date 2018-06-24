@@ -9,8 +9,9 @@ func add(args ...int) int {
 	}
 	return total
 }
+/* add arguments, called variadics */
 func main() {
-	fmt.Println(add(1,2,3))
+	fmt.Println(add(1,2,6))
 	xs := []int{1,2,3}
   fmt.Println(add(xs...))
 
