@@ -8,7 +8,7 @@ func index_handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func about_handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Expert web design by Menino")
+	fmt.Fprintf(w, "Expert web design by Menino Borges")
 }
 func main() {
     http.HandleFunc("/", index_handler)
