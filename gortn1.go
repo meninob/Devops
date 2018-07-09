@@ -1,5 +1,5 @@
 package main
-
+//go routine
 import "fmt"
 
 func f(n int) {
